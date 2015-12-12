@@ -1,0 +1,21 @@
+body {
+  line-height: 1.5;
+  font-family: serif;
+  margin: 0; /*Removes the default margins around the page*/
+  padding: 0; /*Removes the default paddings around the page*/
+}
+.h1-head {
+  padding: 2%;
+  border: 5px outset blue;
+  background-color: red;
+}
+p {
+  padding: 1%;
+  border: 2px inset black;
+  color: white;
+  background-color: blue;
+}
+code {
+  background-color: white;
+  color: black;
+}

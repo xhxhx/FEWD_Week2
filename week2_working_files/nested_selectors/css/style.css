@@ -1,0 +1,28 @@
+body {
+  margin: 3%;
+  line-height: 1.5;
+}
+p {
+  color: grey;
+}
+em {
+  color: black;
+}
+blockquote {
+  background: linear-gradient(90deg, beige, white)
+}
+blockquote p {
+  border-left: 1px solid grey;
+  padding-left: 2%;
+  padding: 1%;
+  font-style: italic;
+}
+.famous {
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  background-color: blue;
+}
+
+blockquote p .famous {
+  background-color: red;
+}
