@@ -1,5 +1,5 @@
 /*
-Project Name: Blank Template
+Project Name: Relaxr Website
 Client: Your Client
 Author: Your Name
 Developer @GA in NYC
@@ -52,9 +52,12 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+      background-size: contain;
 }
 
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /******************************************
 /* LAYOUT
@@ -62,14 +65,51 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
+  width: 70%;
+  margin: 4% auto;
   height: 500px;
-
 }
 
-header {
+#container2 {
+  width: 100%;
+  margin: 4% auto;
+  padding-left: 10%;
+  padding-top: 2%;
+  height: 500px;
+  background-color: #f0efef;
+}
 
+.h1-logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+
+.h2-subheader {
+  margin: 15% auto 5%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.yellowbtn {
+  margin: 0 auto;
+  width: 22%;
+  padding: 2%;
+  background-color: yellow;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+}
+
+.h1-benefitsheader {
+  font-size: 20px;
+  font-weight: 600;
+  color: navy;
+  margin: 5%;
 }
 
 footer {
