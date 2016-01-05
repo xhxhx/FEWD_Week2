@@ -59,6 +59,7 @@ h1, h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -105,12 +106,33 @@ h1, h2 {
   color: black;
 }
 
+/*Start of Second Section*/
 .h1-benefitsheader {
   font-size: 20px;
   font-weight: 600;
   color: navy;
-  margin: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
 }
+
+.benefittext {
+  margin: 15px 0px 8px 58px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.benefitlist {
+  margin: 15px 0px 8px 70px;
+  list-style-type: disc;
+}
+
+.benefitlist li {
+  margin: 4px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 13px;
+}
+/*End of Second Section*/
 
 footer {
 
